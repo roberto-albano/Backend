@@ -1,0 +1,62 @@
+package week1giorno5Progetto;
+
+public class Video implements ElementoRiproducibile, ElementoVideo {
+	
+	String titolo;
+	int luminosita;
+	int durata;
+	int volume;
+	
+	
+	public Video(String titolo, int luminosita, int durata, int volume) {
+		this.titolo = titolo;
+		this.durata = durata;
+		this.volume = volume;
+		this.luminosita = luminosita;		
+		
+	}
+
+	public void play() {
+		
+		for (int i = 0; i < luminosita; i= i + 2) {
+			System.out.printf(this.titolo);
+				for (int j = 0; j < volume; j++){
+					System.out.printf("!");
+					
+				} 
+				
+				for (int x = 0; x < luminosita; x++) {
+					System.out.printf("*");
+				}
+			} 
+		}
+
+	
+	
+	public void alzaLuminosita(int lum) {
+		this.luminosita = lum;  
+		
+	}
+
+	
+	public void diminuisciLuminosita(int dimlum) {
+		this.luminosita = dimlum;
+		
+	}
+
+	
+	public void abbassaVolume(int volume) {
+		this.volume = volume;
+		
+	}
+
+	
+	public void alzaVolume(int volume) {
+		this.volume = volume;
+		
+		
+	}
+
+	
+}
+

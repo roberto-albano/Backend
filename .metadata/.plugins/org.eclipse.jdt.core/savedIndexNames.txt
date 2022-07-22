@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\Roberto\OneDrive\Desktop\CLIP\Epicode school\Epicode Bootcamp\bd 0222\.metadata\.plugins\org.eclipse.jdt.core
+2664398103.index
+1865797976.index
+2007816226.index
+2703166955.index
+3267201208.index
+3922218369.index

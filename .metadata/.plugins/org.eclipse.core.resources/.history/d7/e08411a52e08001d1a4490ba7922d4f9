@@ -1,0 +1,26 @@
+package week1giorno3;
+
+public class Esercizio5 {
+
+	public static void main(String[] args) {
+		
+		public void ordinaSel (int[] vet)
+		{
+			for (int j=0; j < vet.length-1; j++);
+		}
+		
+		int temp;
+		int pos_min = j;
+		for (int i = j+1; i < vet.length; i++)
+			if (vet[pos_min] > vet[i])
+				pos_min = i;
+		if (pos_min != j)
+		{
+			temp = vet[j];
+			vet[j] = vet[pos_min];
+			vet[pos_min] = temp;
+		}
+
+	}
+
+}

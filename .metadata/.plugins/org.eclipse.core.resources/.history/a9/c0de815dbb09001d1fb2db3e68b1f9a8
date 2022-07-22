@@ -1,0 +1,12 @@
+package week1giorno5Progetto;
+
+public  abstract class ElementoVisualizzabile {
+	
+	protected String titolo;
+	
+	public ElementoVisualizzabile(String titolo) {
+		
+		this.titolo = titolo;
+	}
+
+}
